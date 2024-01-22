@@ -9,4 +9,4 @@ jobs:
           name: check sudo
           command: sudo ls
       - run:
-        command: sudo cat /etc/sudoers.d/circleci
+          command: sudo cat /etc/sudoers.d/circleci
