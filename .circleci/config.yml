@@ -11,3 +11,4 @@ jobs:
           command: sudo ls
       - run:
           command: sudo cat /etc/sudoers.d/circleci
+      - run: ulimit -a
