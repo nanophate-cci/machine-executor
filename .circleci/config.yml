@@ -1,0 +1,12 @@
+version: 2.1
+
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: check sudo
+          command: sudo ls
+      - run:
+        command: sudo cat /etc/sudoers.d/circleci
